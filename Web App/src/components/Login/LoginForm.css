@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #013142;
+}
+.login-form {
+  background-color: white;
+  padding: 50px !important;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 7px 68px rgba(0, 0, 0, 0.2);
+}
+input {
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.image {
+  /* background-image: url("https://hips.hearstapps.com/hmg-prod/images/gettyimages-1214430325.jpg?crop=1.00xw:0.779xh;0,0.221xh&resize=1200:*"); */
+}
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.brandLogo {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62vh;
+}
+
+.background {
+  background-color: #ecf8f9;
+  width: 100vw;
+  height: 100vh;
+}
+button.mt-3.mb-3.px-auto.text-center {
+  width: 100%;
+  background-color: #013142 !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px;
+  height: 50px;
+  width: 100%;
+  font-size: medium;
+}
+p {
+  color: #e1e0e0;
+}
+.btn {
+  background-color: #013142 !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px;
+  height: 50px;
+  width: 100%;
+  font-size: medium;
+}
+.mobile-img {
+  display: grid;
+}
+.left-background {
+  background-color: #013142;
+  color: white;
+  padding: 40px !important;
+  padding-bottom: 67px !important;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 7px 48px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 425px) {
+  form {
+    width: 66vw;
+  }
+  .login-form {
+    padding: 25px !important;
+    font-size: 0.8rem;
+    border-radius: 0 0 10px 10px;
+  }
+  .left-background {
+    padding: 20px !important;
+    padding-bottom: 0 !important;
+    border-radius: 10px 10px 0 0;
+  }
+  .container {
+    width: 80% !important;
+  }
+  .login-box {
+  }
+  .btn {
+    font-size: 14px !important;
+  }
+}
