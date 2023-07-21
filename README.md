@@ -1,6 +1,6 @@
 # **Introduction** 🚀
 
-![Black Box](https://github.com/madhurajayashanka/black-box/blob/main/Images/Black_Box_Cover.png?raw=true)
+![Black Box](https://github.com/madhurajayashanka/Vehicle_Black_Box/blob/main/Images/Black_Box_Cover.png?raw=true)
 
 A black box 📦 generally refers to a device or system whose internal workings or mechanisms are not readily understandable or accessible to the user or observer. The term "black box" is often used metaphorically to describe any system or process in which the inputs and outputs are known, but the internal workings are hidden or unknown. In technology and engineering, a black box can refer to a piece of hardware or software that performs a specific function, but the details of how it achieves that function are not transparent.
 
