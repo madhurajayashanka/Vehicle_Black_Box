@@ -1,55 +1,45 @@
-## **Introduction**
+# **Introduction** 🚀
 
-A black box generally refers to a device or system whose internal workings or mechanisms are not readily understandable or accessible to the user or observer. The term "black box" is often used metaphorically to describe any system or process in which the inputs and outputs are known, but the internal workings are hidden or unknown. In technology and engineering, a black box can refer to a piece of hardware or software that performs a specific function, but the details of how it achieves that function are not transparent.
+![Black Box](https://github.com/madhurajayashanka/black-box/blob/main/Images/Black_Box_Cover.png?raw=true)
 
-In the context of aviation, a flight data recorder (FDR) or cockpit voice recorder (CVR) is commonly referred to as a "black box." These devices are designed to record critical data and conversations in the event of an aircraft accident. The term "black box" is used because these recorders are often housed in a sturdy and fire-resistant container, typically painted black to aid in their recovery.
+A black box 📦 generally refers to a device or system whose internal workings or mechanisms are not readily understandable or accessible to the user or observer. The term "black box" is often used metaphorically to describe any system or process in which the inputs and outputs are known, but the internal workings are hidden or unknown. In technology and engineering, a black box can refer to a piece of hardware or software that performs a specific function, but the details of how it achieves that function are not transparent.
+
+In the context of aviation ✈️, a flight data recorder (FDR) or cockpit voice recorder (CVR) is commonly referred to as a "black box." These devices are designed to record critical data and conversations in the event of an aircraft accident. The term "black box" is used because these recorders are often housed in a sturdy and fire-resistant container, typically painted black to aid in their recovery.
 
 In this project, our team created a black box that can be used for other vehicles such as cars, vans, etc. The black box records many important data such as the speed of the vehicle, the route taken by the vehicle, and the location and time of the vehicle. Also, this black box can be used to monitor driving habits, prevent road accidents, and take necessary actions as soon as possible to avoid harm to human life if an accident occurs.
 
 ---
 
-## **Objectives**
+## **Objectives** :dart:
 
-#### 1. Improving road safety:
+1. **Improving road safety** 🛣️: The black box can record data on the vehicle's speed, and location, which can be used to help identify dangerous driving habits and assist in accident investigations.
 
-The black box can record data on the vehicle's speed, and location, which can be used to help identify dangerous driving habits and assist in accident investigations.
+2. **Monitoring driver behavior** 👀: The data collected by the black box can be used to monitor the driving behavior of individuals and fleets. This can be useful for insurance companies, fleet managers, and other organizations that need to track and analyze driving data.
 
-#### 2. Monitoring driver behavior:
+3. **Enhancing driver training** 🚗: The data collected by the black box can be used to provide feedback to drivers on their habits, such as how often they brake hard or accelerate quickly. This information can help drivers improve their habits and become safer on the road.
 
-The data collected by the black box can be used to monitor the driving behavior of individuals and fleets. This can be useful for insurance companies, fleet managers, and other organizations that need to track and analyze driving data.
+4. **Cost-effective solution** 💰: Having a black box device installed in a vehicle is a cost-effective solution for monitoring and tracking vehicle usage and driver behavior.
 
-#### 3. Enhancing driver training:
+5. **Identifying the cause of accidents** 💥: By having a black box installed in a vehicle, the cause of an accident can be identified easily, which can help to prevent similar accidents from happening in the future.
 
-The data collected by the black box can be used to provide feedback to drivers on their habits, such as how often they brake hard or accelerate quickly. This information can help drivers improve their habits and become safer on the road.
-
-#### 4. Cost-effective solution:
-
-Having a black box device installed in a vehicle is a cost-effective solution for monitoring and tracking vehicle usage and driver behavior.
-
-#### 5. Identifying the cause of accidents:
-
-By having a black box installed in a vehicle, the cause of an accident can be identified easily, which can help to prevent similar accidents from happening in the future.
-
-#### 6. Customizable:
-
-The black box can be customized to suit the specific needs of different types of vehicles and organizations.
+6. **Customizable** 🛠️: The black box can be customized to suit the specific needs of different types of vehicles and organizations.
 
 ---
 
-## **Functions and Components of the Project**
+## **Functions and Components of the Project** ⚙️
 
-- Sending a message and obtaining current location.
-- SOS message triggered when an impact is detected.
-- Uploading data to the cloud.
-- Web Application: ReactJs, Firebase - Real-time Data.
-- Mobile Application: iOS, Android - Real-time Data.
-- RTC Module for retrieving current date and time.
-- SD Card data logging as a backup when there is no signal to upload data.
-- Gyroscope for sensing vehicle roll over and angle.
-- Accelerometer for sensing vehicle acceleration.
-- Monitoring shock and vibration of the vehicle.
-- Reading vehicle ECU (Engine Control Unit) data using OBD-II (ELM327) via Bluetooth.
-- Equipped with a backup battery to power the Black Box in the event of an accident.
+- Sending a message and obtaining current location :envelope:
+- SOS message triggered when an impact is detected :warning:
+- Uploading data to the cloud :cloud:
+- Web Application: ReactJs, Firebase - Real-time Data :globe_with_meridians:
+- Mobile Application: iOS, Android - Real-time Data :iphone:
+- RTC Module for retrieving current date and time ⌚
+- SD Card data logging as a backup when there is no signal to upload data 💾
+- Gyroscope for sensing vehicle roll over and angle 🔄
+- Accelerometer for sensing vehicle acceleration 🚀
+- Monitoring shock and vibration of the vehicle 📳
+- Reading vehicle ECU (Engine Control Unit) data using OBD-II (ELM327) via Bluetooth 🔌
+- Equipped with a backup battery to power the Black Box in the event of an accident 🔋
 
 ---
 
@@ -97,7 +87,7 @@ void loop() {
 
 ---
 
-### To pair and configure the HC-05 module for the first time, follow the steps below:
+### To pair and configure the HC-05 module for the first time, follow the steps below: :wrench:
 
 1. Upload the code to your Arduino board without connecting the TX and RX pins of HC-05 to the Arduino. This ensures that the code doesn't interfere with the AT commands we are going to send.
 
@@ -131,10 +121,12 @@ The above configuration is only needed for the initial pairing and setting the H
 
 ---
 
-## **References**
+## **References** :books:
 
-[https://forum.arduino.cc/t/car-heads-up-display/576252/14](https://forum.arduino.cc/t/car-heads-up-display/576252/14 "https://forum.arduino.cc/t/car-heads-up-display/576252/14")
+[https://forum.arduino.cc/t/car-heads-up-display/576252/14](https://forum.arduino.cc/t/car-heads-up-display/576252/14 "https://forum
+.arduino.cc/t/car-heads-up-display/576252/14")
 
 [https://www.instructables.com/Arduino-OBD2-ELM327-I2C-LCD-HC05-Bluetooth/](https://www.instructables.com/Arduino-OBD2-ELM327-I2C-LCD-HC05-Bluetooth/ "https://www.instructables.com/Arduino-OBD2-ELM327-I2C-LCD-HC05-Bluetooth/")
 
 [https://github.com/PowerBroker2/ELMduino](https://github.com/PowerBroker2/ELMduino "https://github.com/PowerBroker2/ELMduino")
+
